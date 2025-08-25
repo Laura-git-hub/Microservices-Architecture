@@ -1,6 +1,7 @@
 package com.microservice.accounts.controller;
 
 import com.microservice.accounts.constants.AccountsConstants;
+import com.microservice.accounts.service.IAccountsService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -27,8 +28,8 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @Tag(
-        name = "CRUD REST APIs for Accounts in EazyBank",
-        description = "CRUD REST APIs in EazyBank to CREATE, UPDATE, FETCH AND DELETE account details"
+        name = "CRUD REST APIs for Accounts in MenciaBank",
+        description = "CRUD REST APIs in MenciaBank to CREATE, UPDATE, FETCH AND DELETE account details"
 )
 @RestController
 @RequestMapping(path="/api", produces = {MediaType.APPLICATION_JSON_VALUE})
